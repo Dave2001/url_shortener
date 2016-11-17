@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var newurl;
-//var urls={1000:"http://www.google.com",1001:"http://www.cnn.com"}; 
 var urls={}; 
 
 app.get('/new/*', function (req, res) {
